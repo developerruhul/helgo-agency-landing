@@ -12,6 +12,14 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
     <!-- Place favicon.ico in the root directory -->
     <!-- build:css styles/vendor.css -->
+    <link
+      rel="stylesheet"
+      href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/node_modules/owl.carousel/dist/assets/owl.theme.default.min.css"
+    />
     <!-- endbuild -->
     <link
       rel="stylesheet"
@@ -345,7 +353,31 @@
           justo
         </div>
       </section>
-      <div class="reviews">
+      <div class="reviews owl-carousel owl-theme">
+        <div class="review">
+          <img
+            src="./images/avatar/Mask Group 9.png"
+            alt=""
+            class="review__img"
+          />
+          <p class="review__text">
+            Egestas magna egestas magna ipsum vitae purus ipsum primis in
+            cubilia laoreet augue luctus magna aenean primis in augue laoreet
+          </p>
+          <p class="review__author-name">Laura, Manager analytica</p>
+        </div>
+        <div class="review">
+          <img
+            src="./images/avatar/Mask Group 9.png"
+            alt=""
+            class="review__img"
+          />
+          <p class="review__text">
+            Egestas magna egestas magna ipsum vitae purus ipsum primis in
+            cubilia laoreet augue luctus magna aenean primis in augue laoreet
+          </p>
+          <p class="review__author-name">Laura, Manager analytica</p>
+        </div>
         <div class="review">
           <img
             src="./images/avatar/Mask Group 9.png"
@@ -521,6 +553,7 @@
       type="text/javascript"
       src="/node_modules/bootstrap/dist/js/bootstrap.min.js"
     ></script>
+    <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
     <!-- endbuild -->
     <!-- build:js scripts/main.js -->
     <script src="scripts/index.js"></script>

@@ -400,10 +400,6 @@ body {
 //////////////////////////////////////////////////
 // reviews
 /////////////////////////////////////////////////
-.reviews-wrapper {
-  margin: 120px auto;
-}
-
 .reviews {
   margin: 70px auto;
 }
@@ -414,11 +410,12 @@ body {
   margin: 0 auto;
 
   &__img {
-    width: 120px;
+    width: 120px !important;
     border: 4px solid #ef5181;
-    box-shadow: 0 12px 47px rgba(185, 52, 92, 0.62);
+    box-shadow: 0 2px 11px rgba(185, 52, 92, 0.62);
     border-radius: 50%;
     overflow: hidden;
+    margin: 0 auto;
   }
   &__text {
     font-size: 16px;
