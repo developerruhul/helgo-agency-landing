@@ -266,16 +266,17 @@ body {
 .portfolio__grid {
   line-height: 0;
   column-count: 3;
+  column-gap: 20px;
 
   @media (max-width: 800px) {
     column-count: 2;
   }
-  @media (max-width: 400px) {
+  @media (max-width: 450px) {
     column-count: 1;
   }
 
   &-item {
-    padding: 10px;
+    padding-bottom: 20px;
     img {
       max-width: 100%;
       height: auto;
