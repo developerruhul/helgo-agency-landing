@@ -567,7 +567,7 @@ body {
 /////////////////////////////////////////////////
 .footer {
   margin-top: color(black);
-  padding: 100px 0 40px 0;
+  margin-right: 0%;
 
   &__brand {
     max-width: 500px;
@@ -584,7 +584,7 @@ body {
 
   &__col {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     padding: 20px;
   }
 
@@ -637,5 +637,12 @@ portfolio-bg.svg{
 }
 
 .hola{
-  
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.img-fluid{
+  width: 20%;
+  margin-left: 10%;
 }
