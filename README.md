@@ -1,9 +1,4 @@
-# Fictional "Helgo Agency Landing Page"
+# Metric Station
 
-A  beautiful responsive landing page template. 
-
-# [Preview](https://coindesk-dashboard.netlify.app)
-
-![preview](https://i.imgur.com/WawiiEO.png)
-
+Para utilizar la página web se deberá contar con alguna aplicación para correr el código (ej: Webstorm) y luego se deberá iniciar el servidor para visualizar la página web.
 
