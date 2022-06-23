@@ -1,7 +1,7 @@
 body {
   font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: #f57821;
+  color: black;
 }
 
 html,
@@ -155,7 +155,7 @@ body {
     height: 0;
     border-style: solid;
     border-width: 0 0 80px 80px;
-    border-color: transparent transparent #f25378 transparent;
+    border-color: transparent transparent black transparent;
     transform: rotate(10deg);
   }
 }
@@ -257,7 +257,7 @@ body {
 
   .active {
     font-weight: 800;
-    color: #f45e8b;
+    color: black;
     border-bottom: 3px solid #f45e8b;
   }
 }
@@ -291,7 +291,7 @@ body {
   .topic {
     font-size: 18px;
     font-weight: 500;
-    color: #f45e8b;
+    color: black;
 
     @include media-breakpoint-up(sm) {
       font-size: 25px;
@@ -353,7 +353,7 @@ body {
 
   &__name {
     font-weight: 800;
-    color: #f45e8b;
+    color: black;
     font-size: 26px;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -412,7 +412,7 @@ body {
 
   &__img {
     width: 120px !important;
-    border: 4px solid #ef5181;
+    border: 4px solid black;
     box-shadow: 0 2px 11px rgba(185, 52, 92, 0.62);
     border-radius: 50%;
     overflow: hidden;
@@ -424,7 +424,7 @@ body {
   }
   &__author-name {
     font-size: 14px;
-    color: #5d5d5d;
+    color: black;
   }
 }
 //////////////////////////////////////////////////
@@ -498,7 +498,7 @@ body {
     }
   }
   &__price {
-    color: #ef5181;
+    color: black;
     position: relative;
     margin-top: 10px;
 
@@ -516,7 +516,7 @@ body {
   &__btn {
     border-radius: 30px;
     border: solid 3px #f271ac;
-    color: #f3658e;
+    color: black;
     background: none;
     padding: 8px 25px;
     font-size: 14px;
@@ -573,7 +573,7 @@ body {
       font-weight: 500;
     }
     &-desc {
-      color: #929292;
+      color: black;
     }
   }
 
@@ -596,7 +596,7 @@ body {
       font-size: 20px;
     }
     a {
-      color: #8d8d8d;
+      color: black;
     }
   }
 }
